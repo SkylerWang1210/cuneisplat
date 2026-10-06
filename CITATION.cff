@@ -12,3 +12,7 @@ version: 1.0.0
 date-released: "2026-10-06"
 license: MIT
 repository-code: "https://github.com/SkylerWang1210/cuneisplat"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23180828
+    description: "Archived on Zenodo (concept DOI)"

@@ -6,6 +6,9 @@ Code and benchmark generation pipeline for
 > Tian Wang, Jiale Li, Ziyi Huang (Hubei University)
 > Submitted to ICVISP 2026, Track XI
 
+**Code:** https://github.com/SkylerWang1210/cuneisplat
+**Archived on Zenodo (concept DOI, resolves to the latest version):** [10.5281/zenodo.23180828](https://doi.org/10.5281/zenodo.23180828)
+
 CuneiSplat reconstructs a cuneiform tablet as a set of 3D Gaussians from two
 photographs in a single feed-forward pass (0.15 s). It trains an unmodified
 pixelSplat encoder with geometry supervision on rendered views, and adds an
@@ -94,6 +97,8 @@ stratification from the dumped Gaussian caches.
          Cuneiform Tablets with Geometry Supervision},
   author={Wang, Tian and Li, Jiale and Huang, Ziyi},
   year={2026},
-  note={Submitted to ICVISP 2026, Track XI}
+  note={Submitted to ICVISP 2026, Track XI},
+  doi={10.5281/zenodo.23180828},
+  url={https://doi.org/10.5281/zenodo.23180828}
 }
 ```
