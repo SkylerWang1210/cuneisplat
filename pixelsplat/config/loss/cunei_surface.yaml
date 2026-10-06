@@ -1,0 +1,4 @@
+cunei_surface:
+  weight: 0.5
+  max_points: 30000
+  gt_points: 20000

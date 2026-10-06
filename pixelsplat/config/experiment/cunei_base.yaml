@@ -1,0 +1,27 @@
+# @package _global_
+
+defaults:
+  - override /dataset: cunei
+  - override /model/encoder: epipolar
+  - override /model/decoder: splatting_cuda
+  - override /loss: [mse, lpips]
+
+wandb:
+  name: cunei_base
+  mode: disabled
+  tags: [cunei, 256x256]
+
+dataset:
+  image_shape: [256, 256]
+
+data_loader:
+  train:
+    batch_size: 4
+
+trainer:
+  max_steps: 20000
+  val_check_interval: null
+  check_val_every_n_epoch: 40
+
+train:
+  depth_mode: null

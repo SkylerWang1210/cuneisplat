@@ -1,0 +1,12 @@
+defaults:
+  - view_sampler: bounded
+
+name: cunei
+roots: [/root/autodl-tmp/data/renders_pilot]
+image_shape: [256, 256]
+near: 0.8
+far: 5.0
+context_gap: 4
+num_target: 2
+background_color: [0.0, 0.0, 0.0]
+cameras_are_circular: true
